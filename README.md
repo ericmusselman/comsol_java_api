@@ -9,7 +9,11 @@ x [space] y [space] z \n
 EOF
 
 You will need to update the contents of <project_directory>/configs/env/<your OS>.json
-Note: As the code is written, create new run configuration files (<project_directory>/config/runs/<run index>.json) for probing FEMs (i.e., <FEM index>.mph) at new fiber coordinates (i.e., <fiber index>.dat). In each run configuration file, by specifying a list of models and a list of fibers to extract potentials, the program gets Ve(x,y,z) for all listed fibers in all listed FEMs. You can pass a list of run indices to your terminal. Feel free to recycle/modify this code for your projects.
+
+
+Note: As the code is written, create new run configuration files (<project_directory>/config/runs/<run index>.json) for probing FEMs (i.e., <FEM index>.mph) at new fiber coordinates (i.e., <fiber index>.dat). 
+
+In each run configuration file, by specifying a list of models and a list of fibers to extract potentials, the program gets Ve(x,y,z) for all listed fibers in all listed FEMs. You can pass a list of run indices to your terminal. Feel free to recycle/modify this code for your projects.
 
 Run:
 
