@@ -1,4 +1,4 @@
-In your IDE, you will need to add the COMSOL plugins (COMSOL<v5.X>/Multiphysics/plugins/*) and json-20190722.jar to your dependencies
+In your IDE, you will need to add the COMSOL plugins (COMSOL<v5.X>/Multiphysics/plugins/*) and bin/json-20190722.jar to your dependencies
 
 A list of coordinates (x, y, z) is saved as 0.dat in coords_files/ (i.e., <project_directory>/coords_files/0.dat). The first line is the number of coordinates:
 
