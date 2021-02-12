@@ -3,7 +3,7 @@ In your IDE, you will need to add the COMSOL plugins (COMSOL<v5.X>/Multiphysics/
 A list of coordinates (x, y, z) is saved as 0.dat in coords_files/ (i.e., <project_directory>/coords_files/0.dat). The first line is the number of coordinates:
 
 
-<integer length of xyz-coords> \n
+\<integer length of xyz-coords\> \n
 x [space] y [space] z \n
 ... for each coordinate ...
 EOF
