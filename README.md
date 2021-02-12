@@ -15,8 +15,10 @@ Run:
 
 1. cd to (<project_directory>/src/)
 
-2. At your command prompt (e.g., PowerShell for Windows, Terminal for Mac), type: \n
+2. At your command prompt (e.g., PowerShell for Windows, Terminal for Mac), type:
 
 python extract_potentials.py <run_indices>
+
 Note: depending on your PATH, you may need to type “python3” instead of “python” in the above command.
+
 Note: potentials written to file are in volts. NEURON extracellular mechanisms expect millivolts!
