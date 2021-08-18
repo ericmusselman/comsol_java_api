@@ -28,9 +28,9 @@ if os.path.exists(env_path):
     env: dict = load(env_path)
 
 def handoff(env: dict, run_number: int):
-    comsol_path = env['COMSOL_PATH']
-    jdk_path = env['JDK_PATH']
-    project_path = env['PROJECT_PATH']
+    comsol_path = env['MY_COMSOL_PATH']
+    jdk_path = env['MY_JDK_PATH']
+    project_path = env['MY_PROJECT_PATH']
     
     run_path = os.path.join(project_path, 'configs', 'runs', f'{run_number}.json')
     core_name = 'ModelWrapper'
